@@ -16,6 +16,10 @@ Application for tracking income and expenses. It uses Next.js with [Neon](https:
 
 ```bash
 npm install
+after installations run prisma client once
+
+npx prisma migrate dev
+npx prisma generate
 ```
 
 ### Add Environment Variables:
